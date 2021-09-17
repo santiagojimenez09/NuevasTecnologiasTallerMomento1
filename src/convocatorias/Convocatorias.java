@@ -21,6 +21,7 @@ public class Convocatorias {
     public static void main(String[] args) {
         
         Scanner entrada=new Scanner(System.in);
+        int buscar;
         int opc;
         int cont=0;
         
@@ -40,6 +41,7 @@ public class Convocatorias {
             System.out.println("5. Salir");
             System.out.print("Digite una opcion: ");
             opc=entrada.nextInt();
+            
             
             switch(opc){
             
@@ -86,7 +88,7 @@ public class Convocatorias {
                     
                      break;
                 case 2:
-                    int buscar;
+                    
                     System.out.println("Ingrese el nro que camiseta a buscar");
                     buscar=entrada.nextInt();
                     for(int i=0;i<cont;i++){

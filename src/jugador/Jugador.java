@@ -80,7 +80,11 @@ public class Jugador {
     }
 
     public void setEquipoOrigen(String equipoOrigen) {
+        if("medellin".equals(equipoOrigen)){
+            System.out.println("El jugador no tiene el nivel para ser convocado");
+        }else{
         this.equipoOrigen = equipoOrigen;
+        }
     }
 
     
