@@ -82,6 +82,8 @@ public class Jugador {
     public void setEquipoOrigen(String equipoOrigen) {
         this.equipoOrigen = equipoOrigen;
     }
+
+    
     
     
 
